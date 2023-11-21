@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!-- Metadatos -->
+    <meta charset="UTF-8"> <!-- Establece la codificación de caracteres del documento -->
+    <meta name="author" content="Jenery Bautista, Yazmin Mendoza, Jared Cano, Andre Medina">
+    <meta name="description" content="Landing pages de una biblioteca">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Propiedad de la vista -->
+    <link rel="stylesheet" href="..\css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet"> <!-- Importación de estilo proporcionando iconos -->
+    <title>Libreria Imaginaria</title>
+</head>
+
+<body>
+    <header> <!-- Sección  de encabezado -->
+        <nav> <!-- Encapsulamiento de la barra de navegación -->
+            <img src="..\asset/libreria_logo.png" alt="Libreria_Imaginaria"> <!-- Logo -->
+            <!-- Lista desordenada -->
+            <ul>
+                <!-- Lista ordenadas -->
+                <li><a href="..\index.html" class="active">Autor</a></li>
+                <li><a href="#gender-loc">Género</a></li>
+                <li><a href="#book-loc">Producto</a></li>
+                <li><a href="#contact-loc">Contacto</a></li>
+            </ul>
+        </nav>
+        <div class="landing"> <!-- Sección principal-->
+            <div class="intro"> <!-- Sección de contenido -->
+            <h3>Soy <Span>Haruki Murakami</Span><br>Escritor japonés contemporáneo, conocido por su estilo surrealista y narrativa única. Obras como "Tokio Blues" y "Kafka en la orilla" lo han consolidado como uno de los autores más influyentes de la literatura moderna.</h3>
+            </div>
+        </div>
+    </header>
+
+    <section class="gender" id="gender-loc"> <!-- Sección  de género -->
+        <h1>Género</h1>
+        <div class="cards">
+            <div class="gender-card">
+                <img src="..\asset/libreria_logo.png" alt="">
+                <h2>Ficción contemporánea</h2>
+            </div>
+            <div class="gender-card">
+                <img src="..\asset/libreria_logo.png" alt="">
+                <h2>Realismo mágico</h2>
+            </div>
+            <div class="gender-card">
+                <img src="..\asset/libreria_logo.png" alt="">
+                <h2>Novela romántica</h2>
+            </div>
+            <div class="gender-card">
+                <img src="..\asset/libreria_logo.png" alt="">
+                <h2>Novela de aprendizaje</h2>
+            </div>
+        </div>
+    </section>
+
+    <section class="book" id="book-loc">
+        <h1>Libros</h1>
+        <div class="book-cards">
+            <div class="book-card">
+                <img src="..\asset/Haruki_Marakami1.jpeg" alt="">
+                <div class="overlay">
+                    <h3>Tokio blues (Norwegian Wood)</h3>
+                    <p>Una novela que sigue la vida de Toru Watanabe mientras reflexiona sobre su juventud, amor y pérdida en el Tokio de la década de 1960. Es una de las obras más populares de Murakami.</p>
+                </div>
+            </div>
+            <div class="book-card">
+                <img src="..\asset/Haruki_Marakami2.jpeg" alt="">
+                <div class="overlay">
+                    <h3>Kafka en la orilla</h3>
+                    <p>Esta novela mezcla elementos de mitología, realismo mágico y filosofía. Narra la historia entrelazada de Kafka Tamura, un joven que huye de su hogar, y Nakata, un hombre mayor con habilidades peculiares.</p>
+                </div>
+            </div>
+            <div class="book-card">
+                <img src="..\asset/Haruki_Marakami3.jpeg" alt="">
+                <div class="overlay">
+                    <h3>1Q84</h3>
+                    <p>Una obra épica que se desarrolla en un mundo alternativo de Tokio en 1984. La novela sigue a dos personajes, Aomame y Tengo, cuyas vidas se entrelazan en un universo surrealista.</p>
+                </div>
+            </div>
+            <div class="book-card">
+                <img src="..\asset/Haruki_Marakami4.jpeg" alt="">
+                <div class="overlay">
+                    <h3>Al sur de la frontera, al oeste del sol</h3>
+                    <p>Esta novela explora la vida de un hombre que reflexiona sobre sus elecciones, la nostalgia y el impacto de las decisiones tomadas en su juventud.</p>
+                </div>
+            </div>
+            <div class="book-card">
+                <img src="..\asset/Haruki_Marakami5.jpeg" alt="">
+                <div class="overlay">
+                    <h3>Sputnik, mi amor</h3>
+                    <p>Una historia de amor no convencional que sigue a Sumire, una joven escritora, y su relación con Miu, una mujer casada y exitosa mujer de negocios. La novela aborda temas de identidad y búsqueda de significado.</p>
+                </div>
+            </div>
+            <div class="book-card">
+                <img src="..\asset/Haruki_Marakami6.jpeg" alt="">
+                <div class="overlay">
+                    <h3>Norwegian Wood</h3>
+                    <p>Una novela que aborda temas de amor, pérdida y nostalgia. Es una de las obras más conocidas y queridas de Murakami y ha sido adaptada a otras formas de medios.</p>
+                </div>
+            </div>
+        </div>
+        <Button>View More</Button>
+    </section>
+
+    <footer>
+        <section class="contact-me" id="contact-loc"> <!-- Sección de contacto -->
+        <h1>Contáctanos</h1>
+        <div class="contact"> <!-- Seccion de contacto -->
+            <div class="contact-card"> <!-- Contenido de contacto -->
+                <i class="ri-message-3-line"></i>
+                <p>www.libreriaimaginaria.com</p>
+            </div>
+            <div class="contact-card">
+                <i class="ri-phone-line"></i>
+                <p>0123456789</p>
+            </div>
+            <div class="contact-card">
+                <i class="ri-map-pin-3-line"></i>
+                <p>Mérida, Yucatán</p>
+            </div>
+        </div>
+    </section>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!-- Metadatos -->
+    <meta charset="UTF-8"> <!-- Establece la codificación de caracteres del documento -->
+    <meta name="author" content="Jenery Bautista, Yazmin Mendoza, Jared Cano, Andre Medina">
+    <meta name="description" content="Landing pages de una biblioteca">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Propiedad de la vista -->
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet"> <!-- Importación de estilo proporcionando iconos -->
+    <title>Libreria Imaginaria</title>
+</head>
+
+<body>
+    <header> <!-- Sección  de encabezado -->
+        <nav> <!-- Encapsulamiento de la barra de navegación -->
+            <img src="asset/libreria_logo.png" alt="Libreria_Imaginaria"> <!-- Logo -->
+            <!-- Lista desordenada -->
+            <ul>
+                <!-- Lista ordenadas -->
+                <li><a href="#about-loc" class="active">Acerca de</a></li>
+                <li><a href="#author-loc">Autores</a></li>
+                <li><a href="#contact-loc">Contacto</a></li>
+            </ul>
+        </nav>
+        <div class="landing"> <!-- Sección principal-->
+            <div class="intro"> <!-- Sección de contenido -->
+            <h3>Somos <Span>Librería Imaginaria</Span><br>Exploradora de mundos imaginarios.<br>Descubre nuevas historias y expande tu imaginación.</h3>
+            <button>Contáctanos</button>
+            </div>
+            <div class="socials"> <!-- Sección de redes sociales -->
+                <div class="line"></div> <!-- Linea decorativa -->
+                <!-- Iconos de redes sociales -->
+                <i class="ri-facebook-circle-fill"></i>
+                <i class="ri-whatsapp-line"></i>
+            </div>
+        </div>
+    </header>
+
+    <section class="about" id="about-loc"> <!-- Sección acerca de -->
+        <br>
+        <h1>Acerca de</h1>
+        <div class="description">
+            <div class="line"></div>
+            <p>¡Bienvenido a nuestra biblioteca independiente, un refugio para los amantes de la lectura!. En nuestro espacio acogedor, te ofrecemos una selección cuidadosamente curada de libros que abarcan géneros y temas diversos, desde clásicos literarios hasta las últimas novedades. <br>
+            Nuestra misión es brindar a los lectores una experiencia única al sumergirse en historias cautivadoras y descubrir nuevas perspectivas. Además de nuestra extensa colección de libros, también organizamos eventos regulares de lectura que fomentan la comunidad y la conexión entre los apasionados por la literatura. <br>
+            Estos eventos incluyen <span> clubes de lectura, charlas de autores locales e incluso sesiones de escritura creativa</span>.
+            Creemos que la magia de la literatura se amplifica cuando se comparte y se discute con otros amantes de los libros.</p>
+        </div>
+    </section>
+    <br><br><br><br>
+
+    <section class="author" id="author-loc"> <!-- Sección de autores -->
+        <h1>Autores</h1>
+        <div class="author-cards"> <!-- Seccion de tarjetas -->
+            <div class="author-card"> <!-- Contenido de tarjetas -->
+                <img src="asset/images/Gabriel_Garcia.jpeg" alt=""> <!-- Foto del autor -->
+                <div class="overlay"> <!-- Sección de rastreador -->
+                    <h3>Gabriel García</h3> <!-- Nombre del autor -->
+                    <p>Novelista colombiano y premio Nobel de Literatura en 1982. Conocido por su obra maestra "Cien años de soledad", García Márquez es un destacado exponente del realismo mágico en la literatura latinoamericana.</p> <!-- Descripción del autor -->
+                    <button><a href="authors/Gabriel_Garcia.html">Ver más</a></button>
+                </div>
+            </div>
+            <div class="author-card">
+                <img src="asset/images/Joanne_Rowling.jpg" alt="">
+                <div class="overlay">
+                    <h3>Joanne Rowling</h3>
+                    <p>Autora británica, famosa por la serie de libros de Harry Potter. Sus novelas han capturado la imaginación de lectores de todas las edades y han sido adaptadas con gran éxito al cine.</p>
+                    <button><a href="authors/Joanne_Rowling.html">Ver más</a></button>
+                </div>
+            </div>
+            <div class="author-card">
+                <img src="asset/images/Haruki_Murakami.jpg" alt="">
+                <div class="overlay">
+                    <h3>Haruki Murakami</h3>
+                    <p>Escritor japonés contemporáneo, conocido por su estilo surrealista y narrativa única. Obras como "Tokio Blues" y "Kafka en la orilla" lo han consolidado como uno de los autores más influyentes de la literatura moderna.</p>
+                    <button><a href="authors/Haruki_Murakami.html">Ver más</a></button>
+                </div>
+            </div>
+            <div class="author-card">
+                <img src="asset/images/Jane_Austen.jpg" alt="">
+                <div class="overlay">
+                    <h3>Jane Austen</h3>
+                    <p>Novelista británica del siglo XIX, conocida por sus novelas románticas y satíricas que ofrecen agudas observaciones sobre la sociedad de su tiempo. Obras como "Orgullo y prejuicio" la han convertido en una autora clásica.</p>
+                    <button><a href="authors/Jane_Austen.html">Ver más</a></button>
+                </div>
+            </div>
+            <div class="author-card">
+                <img src="asset/images/George_Orwell.jpg" alt="">
+                <div class="overlay">
+                    <h3>George Orwell</h3>
+                    <p>Escritor y periodista británico, famoso por novelas como "1984" y "Rebelión en la granja". Orwell es conocido por su aguda crítica social y política, así como por su influencia duradera en la literatura distópica.</p>
+                    <button><a href="authors/George_Orwell.html">Ver más</a></button>
+                </div>
+            </div>
+            <div class="author-card">
+                <img src="asset/images/Agatha_Christie.jpg" alt="">
+                <div class="overlay">
+                    <h3>Agatha Christie</h3>
+                    <p>Reina del misterio británico, Agatha Christie es conocida por sus ingeniosas novelas de detectives. "Asesinato en el Orient Express" y "Diez negritos" son solo dos ejemplos de su vasta obra.</p>
+                    <button><a href="authors/Agatha_Christie.html">Ver más</a></button>
+                </div>
+            </div>
+        </div>
+        <Button>Ver más</Button>
+    </section>
+
+    <footer>
+        <section class="contact-me" id="contact-loc"> <!-- Sección de contacto -->
+        <h1>Contáctanos</h1>
+        <div class="contact"> <!-- Seccion de contacto -->
+            <div class="contact-card"> <!-- Contenido de contacto -->
+                <i class="ri-message-3-line"></i>
+                <p>www.libreriaimaginaria.com</p>
+            </div>
+            <div class="contact-card">
+                <i class="ri-phone-line"></i>
+                <p>0123456789</p>
+            </div>
+            <div class="contact-card">
+                <i class="ri-map-pin-3-line"></i>
+                <p>Mérida, Yucatán</p>
+            </div>
+        </div>
+    </section>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

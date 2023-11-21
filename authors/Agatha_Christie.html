@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!-- Metadatos -->
+    <meta charset="UTF-8"> <!-- Establece la codificación de caracteres del documento -->
+    <meta name="author" content="Jenery Bautista, Yazmin Mendoza, Jared Cano, Andre Medina">
+    <meta name="description" content="Landing pages de una biblioteca">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Propiedad de la vista -->
+    <link rel="stylesheet" href="..\css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet"> <!-- Importación de estilo proporcionando iconos -->
+    <title>Libreria Imaginaria</title>
+</head>
+
+<body>
+    <header> <!-- Sección  de encabezado -->
+        <nav> <!-- Encapsulamiento de la barra de navegación -->
+            <img src="..\asset/libreria_logo.png" alt="Libreria_Imaginaria"> <!-- Logo -->
+            <!-- Lista desordenada -->
+            <ul>
+                <!-- Lista ordenadas -->
+                <li><a href="..\index.html" class="active">Autor</a></li>
+                <li><a href="#gender-loc">Género</a></li>
+                <li><a href="#book-loc">Libros</a></li>
+                <li><a href="#contact-loc">Contacto</a></li>
+            </ul>
+        </nav>
+        <div class="landing"> <!-- Sección principal-->
+            <div class="intro"> <!-- Sección de contenido -->
+            <h3>Soy <Span>Agatha Christie</Span><br>Reina del misterio británico, Agatha Christie es conocida por sus ingeniosas novelas de detectives. "Asesinato en el Orient Express" y "Diez negritos" son solo dos ejemplos de su vasta obra.</h3>
+            </div>
+        </div>
+    </header>
+
+    <section class="gender" id="gender-loc"> <!-- Sección  de género -->
+        <h1>Género</h1>
+        <div class="cards">
+            <div class="gender-card">
+                <img src="..\asset/libreria_logo.png" alt="">
+                <h2>Misterio</h2>
+            </div>
+            <div class="gender-card">
+                <img src="..\asset/libreria_logo.png" alt="">
+                <h2>Thhriller psicológico</h2>
+            </div>
+            <div class="gender-card">
+                <img src="..\asset/libreria_logo.png" alt="">
+                <h2>Novela de suspenso</h2>
+            </div>
+            <div class="gender-card">
+                <img src="..\asset/libreria_logo.png" alt="">
+                <h2>Novela romántica</h2>
+            </div>
+        </div>
+    </section>
+
+    <section class="book" id="book-loc">
+        <h1>Libros</h1>
+        <div class="book-cards">
+            <div class="book-card">
+                <img src="..\asset/Agatha_Christie1.jpg" alt="">
+                <div class="overlay">
+                    <h3>Asesinato en el Orient Express</h3>
+                    <p>Una de las obras más conocidas de Agatha Christie, presenta al famoso detective Hercule Poirot investigando un asesinato en el lujoso tren Orient Express. La trama y el sorprendente final la convierten en un clásico del género.</p>
+                </div>
+            </div>
+            <div class="book-card">
+                <img src="..\asset/Agatha_Christie2.jpg" alt="">
+                <div class="overlay">
+                    <h3>Diez negritos</h3>
+                    <p>Un thriller psicológico que sigue a diez personas invitadas a una isla remota, donde comienzan a morir una por una según una canción infantil. La intriga y el suspense mantienen a los lectores en vilo hasta el final.</p>
+                </div>
+            </div>
+            <div class="book-card">
+                <img src="..\asset/Agatha_Christie3.jpg" alt="">
+                <div class="overlay">
+                    <h3>Asesinato en Mesopotamia</h3>
+                    <p>Ambientada en una excavación arqueológica en Irak, esta novela presenta a Hercule Poirot resolviendo un asesinato en un contexto intrigante y exótico.</p>
+                </div>
+            </div>
+            <div class="book-card">
+                <img src="..\asset/Agatha_Christie4.jpg" alt="">
+                <div class="overlay">
+                    <h3>Asesinato de Roger Ackroyd</h3>
+                    <p>Una obra fundamental en la historia de la novela policiaca. La narrativa inusual y el giro inesperado al final han convertido a esta novela en un clásico del género.</p>
+                </div>
+            </div>
+            <div class="book-card">
+                <img src="..\asset/Agatha_Christie5.jpg" alt="">
+                <div class="overlay">
+                    <h3>El asesinato de la calle Hickory</h3>
+                    <p>Un misterio que involucra la muerte de una anciana en una pequeña localidad. La novela destaca por su intriga y por el desarrollo del personaje del detective Hércules Poirot.</p>
+                </div>
+            </div>
+            <div class="book-card">
+                <img src="..\asset/Agatha_Christie6.jpg" alt="">
+                <div class="overlay">
+                    <h3>Testigo de cargo</h3>
+                    <p>Un conjunto de relatos cortos y una obra de teatro que presenta historias de juicios y testimonios, con giros inesperados y finales impactantes.</p>
+                </div>
+            </div>
+        </div>
+        <Button>View More</Button>
+    </section>
+
+    <footer>
+        <section class="contact-me" id="contact-loc"> <!-- Sección de contacto -->
+        <h1>Contáctanos</h1>
+        <div class="contact"> <!-- Seccion de contacto -->
+            <div class="contact-card"> <!-- Contenido de contacto -->
+                <i class="ri-message-3-line"></i>
+                <p>www.libreriaimaginaria.com</p>
+            </div>
+            <div class="contact-card">
+                <i class="ri-phone-line"></i>
+                <p>0123456789</p>
+            </div>
+            <div class="contact-card">
+                <i class="ri-map-pin-3-line"></i>
+                <p>Mérida, Yucatán</p>
+            </div>
+        </div>
+    </section>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

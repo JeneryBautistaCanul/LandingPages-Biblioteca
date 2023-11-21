@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!-- Metadatos -->
+    <meta charset="UTF-8"> <!-- Establece la codificación de caracteres del documento -->
+    <meta name="author" content="Jenery Bautista, Yazmin Mendoza, Jared Cano, Andre Medina">
+    <meta name="description" content="Landing pages de una biblioteca">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Propiedad de la vista -->
+    <link rel="stylesheet" href="..\css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet"> <!-- Importación de estilo proporcionando iconos -->
+    <title>Libreria Imaginaria</title>
+</head>
+
+<body>
+    <header> <!-- Sección  de encabezado -->
+        <nav> <!-- Encapsulamiento de la barra de navegación -->
+            <img src="..\asset/libreria_logo.png" alt="Libreria_Imaginaria"> <!-- Logo -->
+            <!-- Lista desordenada -->
+            <ul>
+                <!-- Lista ordenadas -->
+                <li><a href="..\index.html" class="active">Autor</a></li>
+                <li><a href="#gender-loc">Género</a></li>
+                <li><a href="#book-loc">Producto</a></li>
+                <li><a href="#contact-loc">Contacto</a></li>
+            </ul>
+        </nav>
+        <div class="landing"> <!-- Sección principal-->
+            <div class="intro"> <!-- Sección de contenido -->
+            <h3>Soy <Span>Jane Austen</Span><br>Novelista británica del siglo XIX, conocida por sus novelas románticas y satíricas que ofrecen agudas observaciones sobre la sociedad de su tiempo. Obras como "Orgullo y prejuicio" la han convertido en una autora clásica.</h3>
+            </div>
+        </div>
+    </header>
+
+    <section class="gender" id="gender-loc"> <!-- Sección  de género -->
+        <h1>Género</h1>
+        <div class="cards">
+            <div class="gender-card">
+                <img src="..\asset/libreria_logo.png" alt="">
+                <h2>Novela romántica</h2>
+            </div>
+            <div class="gender-card">
+                <img src="..\asset/libreria_logo.png" alt="">
+                <h2>comedia de costumbres</h2>
+            </div>
+            <div class="gender-card">
+                <img src="..\asset/libreria_logo.png" alt="">
+                <h2>Novelas de desarrollo</h2>
+            </div>
+            <div class="gender-card">
+                <img src="..\asset/libreria_logo.png" alt="">
+                <h2>Ficción clásica</h2>
+            </div>
+        </div>
+    </section>
+
+    <section class="book" id="book-loc">
+        <h1>Libros</h1>
+        <div class="book-cards">
+            <div class="book-card">
+                <img src="..\asset/Jane_Austen1.jpg" alt="">
+                <div class="overlay">
+                    <h3>Orgullo y prejuicio</h3>
+                    <p>Una de las novelas más conocidas de Austen, sigue la historia de Elizabeth Bennet y el señor Darcy mientras navegan por las complejidades del orgullo, el prejuicio y el amor en la Inglaterra del siglo XIX.</p>
+                </div>
+            </div>
+            <div class="book-card">
+                <img src="..\asset/Jane_Austen2.jpg" alt="">
+                <div class="overlay">
+                    <h3>Sentido y sensibilidad</h3>
+                    <p>La novela explora las vidas y amores de las hermanas Dashwood mientras enfrentan las presiones sociales y buscan la felicidad en una sociedad que valora tanto el sentido como la sensibilidad.</p>
+                </div>
+            </div>
+            <div class="book-card">
+                <img src="..\asset/Jane_Austen3.jpg" alt="">
+                <div class="overlay">
+                    <h3>Emma</h3>
+                    <p>La historia de Emma Woodhouse, una joven que se dedica a hacer de casamentera en su comunidad. La novela aborda temas de clase social, autoconocimiento y amor.</p>
+                </div>
+            </div>
+            <div class="book-card">
+                <img src="..\asset/Jane_Austen4.jpg" alt="">
+                <div class="overlay">
+                    <h3>Mansfield Park</h3>
+                    <p>La novela sigue a Fanny Price mientras navega por la complejidad de la vida en la Mansfield Park de sus parientes, explorando temas de moralidad y el lugar de la mujer en la sociedad.</p>
+                </div>
+            </div>
+            <div class="book-card">
+                <img src="..\asset/Jane_Austen5.jpg" alt="">
+                <div class="overlay">
+                    <h3>Persuasión</h3>
+                    <p>La última novela completa de Austen, "Persuasión" narra la historia de Anne Elliot y su encuentro con el capitán Wentworth después de varios años. La novela examina el tema de las segundas oportunidades en el amor.</p>
+                </div>
+            </div>
+            <div class="book-card">
+                <img src="..\asset/Jane_Austen6.jpg" alt="">
+                <div class="overlay">
+                    <h3>Northanger Abbey</h3>
+                    <p>Una obra que parodia las novelas góticas de la época, sigue a la heroína Catherine Morland mientras navega por las intrigas románticas en la sociedad.</p>
+                </div>
+            </div>
+        </div>
+        <Button>View More</Button>
+    </section>
+
+    <footer>
+        <section class="contact-me" id="contact-loc"> <!-- Sección de contacto -->
+        <h1>Contáctanos</h1>
+        <div class="contact"> <!-- Seccion de contacto -->
+            <div class="contact-card"> <!-- Contenido de contacto -->
+                <i class="ri-message-3-line"></i>
+                <p>www.libreriaimaginaria.com</p>
+            </div>
+            <div class="contact-card">
+                <i class="ri-phone-line"></i>
+                <p>0123456789</p>
+            </div>
+            <div class="contact-card">
+                <i class="ri-map-pin-3-line"></i>
+                <p>Mérida, Yucatán</p>
+            </div>
+        </div>
+    </section>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

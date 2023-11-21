@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!-- Metadatos -->
+    <meta charset="UTF-8"> <!-- Establece la codificación de caracteres del documento -->
+    <meta name="author" content="Jenery Bautista, Yazmin Mendoza, Jared Cano, Andre Medina">
+    <meta name="description" content="Landing pages de una biblioteca">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Propiedad de la vista -->
+    <link rel="stylesheet" href="..\css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet"> <!-- Importación de estilo proporcionando iconos -->
+    <title>Libreria Imaginaria</title>
+</head>
+
+<body>
+    <header> <!-- Sección  de encabezado -->
+        <nav> <!-- Encapsulamiento de la barra de navegación -->
+            <img src="..\asset/libreria_logo.png" alt="Libreria_Imaginaria"> <!-- Logo -->
+            <!-- Lista desordenada -->
+            <ul>
+                <!-- Lista ordenadas -->
+                <li><a href="..\index.html" class="active">Autor</a></li>
+                <li><a href="#gender-loc">Género</a></li>
+                <li><a href="#book-loc">Producto</a></li>
+                <li><a href="#contact-loc">Contacto</a></li>
+            </ul>
+        </nav>
+        <div class="landing"> <!-- Sección principal-->
+            <div class="intro"> <!-- Sección de contenido -->
+            <h3>Soy <Span>Gabriel García</Span><br>Novelista colombiano y premio Nobel de Literatura en 1982. Conocido por su obra maestra "Cien años de soledad", García Márquez es un destacado exponente del realismo mágico en la literatura latinoamericana.</h3>
+            </div>
+        </div>
+    </header>
+
+    <section class="gender" id="gender-loc"> <!-- Sección  de género -->
+        <h1>Género</h1>
+        <div class="cards">
+            <div class="gender-card">
+                <img src="..\asset/libreria_logo.png" alt="">
+                <h2>Realismo mágico</h2>
+            </div>
+            <div class="gender-card">
+                <img src="..\asset/libreria_logo.png" alt="">
+                <h2>Novelas</h2>
+            </div>
+            <div class="gender-card">
+                <img src="..\asset/libreria_logo.png" alt="">
+                <h2>Cuentos</h2>
+            </div>
+            <div class="gender-card">
+                <img src="..\asset/libreria_logo.png" alt="">
+                <h2>Ensayos</h2>
+            </div>
+        </div>
+    </section>
+
+    <section class="book" id="book-loc">
+        <h1>Libros</h1>
+        <div class="book-cards">
+            <div class="book-card">
+                <img src="..\asset/Gabriel_Garcia1.jpg" alt="">
+                <div class="overlay">
+                    <h3>Cien años de soledad</h3>
+                    <p>Esta novela es considerada una obra maestra del realismo mágico y es una de las más influyentes en la literatura contemporánea. Narra la historia de la familia Buendía en el ficticio pueblo de Macondo a lo largo de varias generaciones.</p>
+                </div>
+            </div>
+            <div class="book-card">
+                <img src="..\asset/Gabriel_Garcia2.jpg" alt="">
+                <div class="overlay">
+                    <h3>El otoño del patriarca</h3>
+                    <p>Una novela que aborda temas de poder, soledad y la naturaleza de la dictadura a través de la vida del patriarca de un país sin nombre.</p>
+                </div>
+            </div>
+            <div class="book-card">
+                <img src="..\asset/Gabriel_Garcia3.jpg" alt="">
+                <div class="overlay">
+                    <h3>Crónica de una muerte anunciada</h3>
+                    <p>Una obra que combina elementos de periodismo y ficción para relatar la historia de un asesinato y la inevitabilidad del mismo.</p>
+                </div>
+            </div>
+            <div class="book-card">
+                <img src="..\asset/Gabriel_Garcia4.jpg" alt="">
+                <div class="overlay">
+                    <h3>El general en su laberinto</h3>
+                    <p>Esta novela histórica narra los últimos días del libertador Simón Bolívar mientras reflexiona sobre su vida y legado.</p>
+                </div>
+            </div>
+            <div class="book-card">
+                <img src="..\asset/Gabriel_Garcia5.jpg" alt="">
+                <div class="overlay">
+                    <h3>Del amor y otros demonios</h3>
+                    <p>Ambientada en la época colonial en Colombia, esta novela explora la relación entre una joven y un sacerdote, mientras enfrentan la intolerancia religiosa y la aparición de un supuesto caso de posesión demoníaca.</p>
+                </div>
+            </div>
+            <div class="book-card">
+                <img src="..\asset/Gabriel_Garcia6.jpg" alt="">
+                <div class="overlay">
+                    <h3>Noticia de un secuestro</h3>
+                    <p>Una obra no ficcional que relata el secuestro de diez periodistas colombianos por parte del cartel de Medellín y las complejidades del conflicto en ese momento.</p>
+                </div>
+            </div>
+        </div>
+        <Button>View More</Button>
+    </section>
+
+    <footer>
+        <section class="contact-me" id="contact-loc"> <!-- Sección de contacto -->
+        <h1>Contáctanos</h1>
+        <div class="contact"> <!-- Seccion de contacto -->
+            <div class="contact-card"> <!-- Contenido de contacto -->
+                <i class="ri-message-3-line"></i>
+                <p>www.libreriaimaginaria.com</p>
+            </div>
+            <div class="contact-card">
+                <i class="ri-phone-line"></i>
+                <p>0123456789</p>
+            </div>
+            <div class="contact-card">
+                <i class="ri-map-pin-3-line"></i>
+                <p>Mérida, Yucatán</p>
+            </div>
+        </div>
+    </section>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

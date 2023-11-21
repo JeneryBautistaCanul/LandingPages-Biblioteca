@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!-- Metadatos -->
+    <meta charset="UTF-8"> <!-- Establece la codificación de caracteres del documento -->
+    <meta name="author" content="Jenery Bautista, Yazmin Mendoza, Jared Cano, Andre Medina">
+    <meta name="description" content="Landing pages de una biblioteca">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Propiedad de la vista -->
+    <link rel="stylesheet" href="..\css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet"> <!-- Importación de estilo proporcionando iconos -->
+    <title>Libreria Imaginaria</title>
+</head>
+
+<body>
+    <header> <!-- Sección  de encabezado -->
+        <nav> <!-- Encapsulamiento de la barra de navegación -->
+            <img src="..\asset/libreria_logo.png" alt="Libreria_Imaginaria"> <!-- Logo -->
+            <!-- Lista desordenada -->
+            <ul>
+                <!-- Lista ordenadas -->
+                <li><a href="..\index.html" class="active">Autor</a></li>
+                <li><a href="#gender-loc">Género</a></li>
+                <li><a href="#book-loc">Producto</a></li>
+                <li><a href="#contact-loc">Contacto</a></li>
+            </ul>
+        </nav>
+        <div class="landing"> <!-- Sección principal-->
+            <div class="intro"> <!-- Sección de contenido -->
+            <h3>Soy <Span>Joanne Rowling</Span><br>Autora británica, famosa por la serie de libros de Harry Potter. Sus novelas han capturado la imaginación de lectores de todas las edades y han sido adaptadas con gran éxito al cine.</h3>
+            </div>
+        </div>
+    </header>
+
+    <section class="gender" id="gender-loc"> <!-- Sección  de género -->
+        <h1>Género</h1>
+        <div class="cards">
+            <div class="gender-card">
+                <img src="..\asset/libreria_logo.png" alt="">
+                <h2>Fantasía</h2>
+            </div>
+            <div class="gender-card">
+                <img src="..\asset/libreria_logo.png" alt="">
+                <h2>Literatura juvenil</h2>
+            </div>
+            <div class="gender-card">
+                <img src="..\asset/libreria_logo.png" alt="">
+                <h2>Misterio</h2>
+            </div>
+            <div class="gender-card">
+                <img src="..\asset/libreria_logo.png" alt="">
+                <h2>Misterio</h2>
+            </div>
+        </div>
+    </section>
+
+    <section class="book" id="book-loc">
+        <h1>Libros</h1>
+        <div class="book-cards">
+            <div class="book-card">
+                <img src="..\asset/Joanne_Rowling1.jpg" alt="">
+                <div class="overlay">
+                    <h3>Harry Potter y la piedra filosofal</h3>
+                    <p>El libro que marcó el comienzo de la icónica serie. Presenta a Harry Potter, un joven mago que descubre su herencia mágica y comienza su aventura en la escuela de magia Hogwarts.</p>
+                </div>
+            </div>
+            <div class="book-card">
+                <img src="..\asset/Joanne_Rowling2.jpg" alt="">
+                <div class="overlay">
+                    <h3>Harry Potter y las Reliquias de la Muerte</h3>
+                    <p>El séptimo y último libro de la serie "Harry Potter". Concluye la epopeya de Harry y sus amigos en la lucha contra el malvado Lord Voldemort.</p>
+                </div>
+            </div>
+            <div class="book-card">
+                <img src="..\asset/Joanne_Rowling3.jpg" alt="">
+                <div class="overlay">
+                    <h3>Animales fantásticos y dónde encontrarlos</h3>
+                    <p>Este libro es una guía ficticia de criaturas mágicas en el mundo de Harry Potter. Más tarde, fue adaptado como una película y ampliado como una serie de películas y libros.</p>
+                </div>
+            </div>
+            <div class="book-card">
+                <img src="..\asset/Joanne_Rowling4.jpg" alt="">
+                <div class="overlay">
+                    <h3>Quidditch a través de los tiempos</h3>
+                    <p>Otra obra ficticia en el mundo de Harry Potter, este libro es una historia detallada del popular deporte de quidditch, jugado con escobas voladoras.</p>
+                </div>
+            </div>
+            <div class="book-card">
+                <img src="..\asset/Joanne_Rowling5.jpg" alt="">
+                <div class="overlay">
+                    <h3>El canto del cuco</h3>
+                    <p>La primera novela escrita por J.K. Rowling bajo el seudónimo de Robert Galbraith. Es un misterio protagonizado por el detective Cormoran Strike.</p>
+                </div>
+            </div>
+            <div class="book-card">
+                <img src="..\asset/Joanne_Rowling6.jpg" alt="">
+                <div class="overlay">
+                    <h3>Una vacante imprevista</h3>
+                    <p>Una novela para adultos que aborda temas sociales y morales en el contexto de la vida en una pequeña comunidad. Es otra obra de Rowling fuera del mundo de Harry Potter.</p>
+                </div>
+            </div>
+        </div>
+        <Button>View More</Button>
+    </section>
+
+    <footer>
+        <section class="contact-me" id="contact-loc"> <!-- Sección de contacto -->
+        <h1>Contáctanos</h1>
+        <div class="contact"> <!-- Seccion de contacto -->
+            <div class="contact-card"> <!-- Contenido de contacto -->
+                <i class="ri-message-3-line"></i>
+                <p>www.libreriaimaginaria.com</p>
+            </div>
+            <div class="contact-card">
+                <i class="ri-phone-line"></i>
+                <p>0123456789</p>
+            </div>
+            <div class="contact-card">
+                <i class="ri-map-pin-3-line"></i>
+                <p>Mérida, Yucatán</p>
+            </div>
+        </div>
+    </section>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

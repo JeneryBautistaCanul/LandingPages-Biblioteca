@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!-- Metadatos -->
+    <meta charset="UTF-8"> <!-- Establece la codificación de caracteres del documento -->
+    <meta name="author" content="Jenery Bautista, Yazmin Mendoza, Jared Cano, Andre Medina">
+    <meta name="description" content="Landing pages de una biblioteca">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Propiedad de la vista -->
+    <link rel="stylesheet" href="..\css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet"> <!-- Importación de estilo proporcionando iconos -->
+    <title>Libreria Imaginaria</title>
+</head>
+
+<body>
+    <header> <!-- Sección  de encabezado -->
+        <nav> <!-- Encapsulamiento de la barra de navegación -->
+            <img src="..\asset/libreria_logo.png" alt="Libreria_Imaginaria"> <!-- Logo -->
+            <!-- Lista desordenada -->
+            <ul>
+                <!-- Lista ordenadas -->
+                <li><a href="..\index.html" class="active">Autor</a></li>
+                <li><a href="#gender-loc">Género</a></li>
+                <li><a href="#book-loc">Producto</a></li>
+                <li><a href="#contact-loc">Contacto</a></li>
+            </ul>
+        </nav>
+        <div class="landing"> <!-- Sección principal-->
+            <div class="intro"> <!-- Sección de contenido -->
+            <h3>Soy <Span>George Orwell</Span><br>Escritor y periodista británico, famoso por novelas como "1984" y "Rebelión en la granja". Orwell es conocido por su aguda crítica social y política, así como por su influencia duradera en la literatura distópica.</h3>
+            </div>
+        </div>
+    </header>
+
+    <section class="gender" id="gender-loc"> <!-- Sección  de género -->
+        <h1>Género</h1>
+        <div class="cards">
+            <div class="gender-card">
+                <img src="..\asset/libreria_logo.png" alt="">
+                <h2>Distopía</h2>
+            </div>
+            <div class="gender-card">
+                <img src="..\asset/libreria_logo.png" alt="">
+                <h2>Sátira Política</h2>
+            </div>
+            <div class="gender-card">
+                <img src="..\asset/libreria_logo.png" alt="">
+                <h2>Ensayo político</h2>
+            </div>
+            <div class="gender-card">
+                <img src="..\asset/libreria_logo.png" alt="">
+                <h2>Novela Autobiográfica</h2>
+            </div>
+        </div>
+    </section>
+
+    <section class="book" id="book-loc">
+        <h1>Libros</h1>
+        <div class="book-cards">
+            <div class="book-card">
+                <img src="..\asset/George_Orwell1.jpg" alt="">
+                <div class="overlay">
+                    <h3>1984</h3>
+                    <p>Una obra maestra distópica que presenta un sombrío futuro totalitario en el que el gobierno controla la realidad y la verdad. La novela explora temas de vigilancia, manipulación y resistencia.</p>
+                </div>
+            </div>
+            <div class="book-card">
+                <img src="..\asset/George_Orwell2.jpg" alt="">
+                <div class="overlay">
+                    <h3>Rebelión en la granja</h3>
+                    <p>Una sátira política que utiliza animales de una granja para representar figuras y eventos clave de la Revolución Rusa. La obra critica el abuso de poder y la corrupción en la política.</p>
+                </div>
+            </div>
+            <div class="book-card">
+                <img src="..\asset/George_Orwell3.jpeg" alt="">
+                <div class="overlay">
+                    <h3>La granja de los animales</h3>
+                    <p>Similar a "Rebelión en la granja", esta obra es una alegoría que reflexiona sobre la naturaleza de la política y la traición.</p>
+                </div>
+            </div>
+            <div class="book-card">
+                <img src="..\asset/George_Orwell4.jpg" alt="">
+                <div class="overlay">
+                    <h3>Homenaje a Cataluña</h3>
+                    <p>Una obra autobiográfica basada en las experiencias de Orwell como voluntario en la Guerra Civil Española. Ofrece una mirada personal a los conflictos políticos y sociales de la época.</p>
+                </div>
+            </div>
+            <div class="book-card">
+                <img src="..\asset/George_Orwell5.jpg" alt="">
+                <div class="overlay">
+                    <h3>Dentro de la ballena y otros ensayos</h3>
+                    <p>Una colección de ensayos que abordan una variedad de temas, desde críticas literarias hasta reflexiones políticas y sociales. Incluye el famoso ensayo "La política y la lengua inglesa".</p>
+                </div>
+            </div>
+            <div class="book-card">
+                <img src="..\asset/George_Orwell6.jpg" alt="">
+                <div class="overlay">
+                    <h3>Aspidistra</h3>
+                    <p>Una novela que examina las tensiones entre la riqueza y la pobreza, la moralidad y la corrupción en la sociedad británica. La historia sigue a Gordon Comstock, un poeta que rechaza la sociedad de consumo.</p>
+                </div>
+            </div>
+        </div>
+        <Button>View More</Button>
+    </section>
+
+    <footer>
+        <section class="contact-me" id="contact-loc"> <!-- Sección de contacto -->
+        <h1>Contáctanos</h1>
+        <div class="contact"> <!-- Seccion de contacto -->
+            <div class="contact-card"> <!-- Contenido de contacto -->
+                <i class="ri-message-3-line"></i>
+                <p>www.libreriaimaginaria.com</p>
+            </div>
+            <div class="contact-card">
+                <i class="ri-phone-line"></i>
+                <p>0123456789</p>
+            </div>
+            <div class="contact-card">
+                <i class="ri-map-pin-3-line"></i>
+                <p>Mérida, Yucatán</p>
+            </div>
+        </div>
+    </section>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
